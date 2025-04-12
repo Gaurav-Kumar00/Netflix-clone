@@ -8,10 +8,10 @@ A clean and responsive front-end Netflix landing page clone made using **HTML**,
 
 Netflix-Clone/
 ├── Assets/
-│   ├── index.html       # Main webpage (Netflix clone UI)
-│   ├── style.css        # Styling (dark theme, grid, layout)
-│   └── index.js         # JavaScript (optional interactions)
-├── README.md            # Project documentation
+│   ├── index.html     # Main webpage (Netflix clone UI)
+│   ├── style.css      # Styling (dark theme, grid, layout)
+│   └── index.js       # JavaScript (optional interactions)
+└── README.md          # Project documentation
 
 
 
