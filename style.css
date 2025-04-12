@@ -1,0 +1,537 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+/* General separation div */
+
+.separation {
+    height: 7px;
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+}
+
+/* Sections */
+
+.main {
+    background-image: url(./Assets/Images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 700px;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #000;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 90px;
+}
+
+nav img {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+}
+
+.navbar-buttons {
+    position: relative;
+    z-index: 1;
+}
+
+/* hero-text */
+
+.main .hero-content {
+    font-family: "Martel Sans", sans-serif;
+    color: #fff;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.hero-text > :first-child {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-text > :nth-child(2) {
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero-text :nth-child(3) {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* buttons */
+.btn {
+    padding: 5px 30px;
+    color: #fff;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid rgb(131, 131, 131);
+    cursor: pointer;
+}
+
+.select-button {
+    position: relative;
+}
+
+/* To remove the drop icon */
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select-button > .btn {
+    font-size: 16px;
+}
+
+.select-button > .lang-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.select-button > .drop-icon {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+
+.btn-red {
+    font-weight: 600;
+    border: 0;
+    font-size: 25px;
+    padding: 10px 26px;
+    background-color: #e50914;
+}
+
+.btn-red-sm {
+    padding: 6px 18px;
+    border: 0;
+    font-weight: 600;
+    background-color: #e50914;
+}
+
+.main input {
+    color: #fff;
+    font-size: 15px;
+    padding: 18px 160px 18px 10px;
+    background-color: rgba(23, 23, 23, 0.058);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.427);
+}
+
+.navbar-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Seperating Div */
+.separation {
+    position: relative;
+    z-index: 1;
+}
+
+/* First Section */
+.first-section {
+    position: relative;
+    max-width: 75vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #fff;
+    margin: auto;
+    gap: 20px;
+}
+
+.first-section-image {
+    position: relative;
+}
+
+.first-section-image > img {
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.downloading {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    height: 80px;
+    padding: 10px;
+    z-index: 1;
+    bottom: 32px;
+    left: 108px;
+    background-color: #000;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    border-radius: 10px;
+}
+
+.downloading .downloading-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.downloading .stranger-things {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.downloading .downloading-text {
+    font-size: 14px;
+    color: rgb(0, 113, 235);
+}
+
+.downloading .downloading-cover {
+    width: 56px;
+}
+
+.downloading .downloading-gif {
+    width: 50px;
+}
+
+.first-section-image video {
+    width: 376px;
+    position: absolute;
+    top: 78px;
+    right: 58px;
+}
+
+.first-section-text :nth-child(1) {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.first-section-text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* Third Section */
+.first-section-image .third-video {
+    width: 304px;
+    position: absolute;
+    top: 30px;
+    right: 101px;
+}
+
+/* FAQ- Section */
+
+.faq {
+    padding: 30px;
+}
+
+.faq h2.faq-title {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.faq-container {
+    max-width: 75vw;
+    margin: 15px auto;
+}
+
+.accordion {
+    margin: 8px 0;
+    font-size: 22px;
+    color: #fff;
+    background-color: #2d2d2d;
+}
+
+.accordion .question {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 500ms ease;
+}
+
+.accordion .question:hover {
+    background-color: #414141;
+}
+
+.accordion .answer {
+    max-height: 0;
+    overflow: hidden;
+    border-top: 1px solid #000;
+    transition: max-height 500ms ease;
+}
+
+.accordion .answer > div {
+    padding: 20px;
+}
+
+.accordion .icon {
+    transition: transform 350ms ease;
+}
+
+.accordion.active .answer {
+    max-height: 300px;
+}
+
+.accordion.active .icon {
+    transform: rotate(45deg);
+}
+
+/* Footer */
+
+footer {
+    color: #fff;
+    max-width: 60vw;
+    margin: 20px auto;
+    height: 30vh;
+}
+
+footer .footer-query {
+    margin: 25px 0;
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: #fff;
+}
+
+.footer-box a {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 15px;
+}
+
+/* Media Query */
+
+@media (max-width: 1300px) {
+    body {
+        text-align: center;
+    }
+
+    .main {
+        height: 600px;
+    }
+
+    .main .box {
+        height: 600px;
+    }
+
+    nav {
+        max-width: 90vw;
+        height: 120px;
+    }
+
+    nav .navbar-logo {
+        height: 40px;
+        width: 100px;
+    }
+
+    nav img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .select-button > .lang-icon {
+        position: absolute;
+        top: 8px;
+        left: 3px;
+    }
+
+    .btn {
+        padding: 5px 20px;
+    }
+
+    .select-button > .drop-icon {
+        position: absolute;
+        top: 10px;
+        right: 3px;
+    }
+
+    .select-button > .btn {
+        font-size: 15px;
+    }
+
+    .navbar-buttons {
+        gap: 10px;
+    }
+
+    .btn-red {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn-red-sm {
+        padding: 5px 12px;
+    }
+
+    .main input {
+        font-size: 10px;
+        padding: 11px 115px 11px 10px;
+    }
+
+    .main .hero-content {
+        height: calc(100% - 150px);
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .hero-text > :first-child {
+        font-size: 30px;
+    }
+
+    .hero-text > :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .hero-text > :nth-child(3) {
+        font-size: 10px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .first-section {
+        flex-wrap: wrap;
+    }
+
+    .first-section-image img {
+        width: 350px;
+    }
+
+    .first-section-image video {
+        width: 251px;
+        position: absolute;
+        top: 56px;
+        right: 51px;
+    }
+
+    .downloading {
+        height: 40px;
+        left: 62px;
+        bottom: 0;
+    }
+    .downloading .stranger-things {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .downloading .downloading-content {
+        align-items: start;
+    }
+
+    .downloading .downloading-text {
+        font-size: 12px;
+        color: rgb(0, 113, 235);
+    }
+
+    .downloading .downloading-cover {
+        width: 34px;
+    }
+
+    .downloading .downloading-gif {
+        width: 30px;
+    }
+
+    .first-section-image .third-video {
+        width: 213px;
+        position: absolute;
+        top: 22px;
+        right: 72px;
+    }
+
+    .first-section-text :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .first-section-text :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .second-section .first-section-image {
+        order: 1;
+    }
+
+    .fourth-section .first-section-image {
+        order: 1;
+    }
+
+    .faq h2 {
+        font-size: 24px;
+    }
+
+    .accordion {
+        text-align: left;
+        max-width: 90vw;
+        font-size: 15px;
+    }
+
+    footer {
+        height: 55vh;
+    }
+
+    .footer-box {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
